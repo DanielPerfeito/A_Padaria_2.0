@@ -1,0 +1,72 @@
+/*INICIO*/
+
+/*Imports necessários*/
+@import "./mixins.scss";
+
+
+/*Capa e filhos*/
+#capa{
+    height: 60vh;
+    background-image: url(../ativos/backgroud-capa04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    #filtro1{
+        height: 100%;
+        background-image: linear-gradient(to top, #000000, #00000038);
+
+
+
+    header{
+        #btn-abrir-menu{
+            font-size: 1.6rem;
+            font-weight: bold;
+             color: #ffffff;
+            background-color: #000000;
+            z-index: 1;
+
+            &:hover{
+                color: $Cor-primaria;
+            }
+
+        }
+    }
+
+    #logo1{
+        width: 80%;
+    }
+}
+}
+
+/*Barra lateral e filhos*/
+#barra-lateral{
+    background-color: $Cor-escura;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    @include display(flex, column, start, end, 0);
+    transition: .3s;
+
+    #btn-fechar-menu{
+        color: $Cor-Clara;
+        font-size: 1.6rem;
+        
+
+        &:hover{
+            color: $Cor-primaria;
+        }
+    }
+
+    a{
+        width: 100%;
+        text-align: right;
+        padding: 15px;
+        color: $Cor-Clara;
+        text-decoration: none;
+        transition: .2s;
+       
+        &:hover{
+            background-color: $Cor-primaria;
+    
+        }
+    }
+}

@@ -1,0 +1,9 @@
+/*MIXINS*/
+
+@mixin display($flex, $direction, $justify-content, $align-items, $gap){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}

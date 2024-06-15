@@ -1,3 +1,73 @@
+@charset "UTF-8";
+/*STYLE PRINCIPAL*/
+/*Imports*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/*Variáveis*/
+/*INICIO*/
+/*Imports necessários*/
+/*MIXINS*/
+/*Capa e filhos*/
+#capa {
+  height: 60vh;
+  background-image: url(../ativos/backgroud-capa04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#capa #filtro1 {
+  height: 100%;
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.2196078431));
+}
+#capa #filtro1 header #btn-abrir-menu {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #000000;
+  z-index: 1;
+}
+#capa #filtro1 header #btn-abrir-menu:hover {
+  color: #d29d2b;
+}
+#capa #filtro1 #logo1 {
+  width: 80%;
+}
+
+/*Barra lateral e filhos*/
+#barra-lateral {
+  background-color: #000000;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  gap: 0;
+  transition: 0.3s;
+}
+#barra-lateral #btn-fechar-menu {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+#barra-lateral #btn-fechar-menu:hover {
+  color: #d29d2b;
+}
+#barra-lateral a {
+  width: 100%;
+  text-align: right;
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#barra-lateral a:hover {
+  background-color: #d29d2b;
+}
+
+/*MIXINS*/
 
 /*# sourceMappingURL=style.css.map */
