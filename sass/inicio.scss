@@ -17,6 +17,19 @@
 
 
     header{
+        #menu{
+            width: 100%;
+            display:none;
+            z-index: 1;
+
+    
+
+            @media screen and (min-width: 768px){
+            @include display (flex, row, center, center, 30px )
+            }
+
+        }
+
         #btn-abrir-menu{
             font-size: 1.6rem;
             font-weight: bold;
@@ -28,11 +41,21 @@
                 color: $Cor-primaria;
             }
 
+            @media screen and (min-width: 768px){
+                display: none;
+            }
+
         }
     }
 
     #logo1{
-        width: 80%;
+        height: 50%;
+
+
+        @media screen and (min-width: 768px){
+        
+            margin-bottom: 80px;
+        }
     }
 }
 }
@@ -69,4 +92,6 @@
     
         }
     }
+
 }
+

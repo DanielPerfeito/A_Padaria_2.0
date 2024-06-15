@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*Variáveis*/
@@ -22,6 +27,20 @@
   height: 100%;
   background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.2196078431));
 }
+#capa #filtro1 header #menu {
+  width: 100%;
+  display: none;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  #capa #filtro1 header #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
 #capa #filtro1 header #btn-abrir-menu {
   font-size: 1.6rem;
   font-weight: bold;
@@ -32,8 +51,18 @@
 #capa #filtro1 header #btn-abrir-menu:hover {
   color: #d29d2b;
 }
+@media screen and (min-width: 768px) {
+  #capa #filtro1 header #btn-abrir-menu {
+    display: none;
+  }
+}
 #capa #filtro1 #logo1 {
-  width: 80%;
+  height: 50%;
+}
+@media screen and (min-width: 768px) {
+  #capa #filtro1 #logo1 {
+    margin-bottom: 80px;
+  }
 }
 
 /*Barra lateral e filhos*/
