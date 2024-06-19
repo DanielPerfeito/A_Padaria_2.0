@@ -115,7 +115,40 @@ a {
 /*MIXINS*/
 /*Galeria*/
 #galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
   background-color: #000000;
+  padding: 15px;
+}
+#galeria h1 {
+  text-align: center;
+  color: #d29d2b;
+  font-size: 1.3rem;
+}
+#galeria #container-carrossel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#galeria #container-carrossel #carouselExampleIndicators {
+  border-bottom: solid 3px #d29d2b;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+#galeria #btn-lojas {
+  background-color: none;
+  border: solid 2px #d29d2b;
+  color: #d29d2b;
+  margin-top: 15px;
+}
+#galeria #btn-lojas:hover {
+  background-color: #d29d2b;
+  color: #000000;
 }
 
 /*MIXINS*/

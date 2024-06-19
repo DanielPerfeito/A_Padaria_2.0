@@ -4,5 +4,39 @@
 /*Galeria*/
 
 #galeria{
+
+    @include display(flex, column, center, center, 20px);
     background-color: $Cor-escura;
+    padding: 15px;
+
+    h1{
+        text-align: center;
+        color: $Cor-primaria;
+        font-size: 1.3rem
+    }
+
+    #container-carrossel{
+        @include display(flex, column, center, center, 20px);
+        
+
+        #carouselExampleIndicators{
+            border-bottom: solid 3px $Cor-primaria;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+
+        }
+
+    }
+
+    #btn-lojas{
+        background-color: none;
+        border: solid 2px $Cor-primaria;
+        color: $Cor-primaria;
+        margin-top: 15px;
+
+        &:hover{
+            background-color: $Cor-primaria;
+            color: $Cor-escura;
+        }
+    }
 }
