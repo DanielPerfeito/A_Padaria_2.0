@@ -111,6 +111,13 @@ a {
   background-color: #d29d2b;
 }
 
+/*Imports necessários*/
+/*MIXINS*/
+/*Galeria*/
+#galeria {
+  background-color: #000000;
+}
+
 /*MIXINS*/
 
 /*# sourceMappingURL=style.css.map */
