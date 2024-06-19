@@ -1,3 +1,16 @@
+
+/*Variáveis*/
+
+$Cor-primaria: #d29d2b;
+$Cor-secundaria: beige;
+$Cor-escura: #000000;
+$Cor-Clara: #ffffff;
+
+$Fonte-primaria: 'Lobster', sans-serif;
+
+
+/*Comuns*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +18,11 @@
     text-decoration: none;
 }
 
+body{
+    font-family: $Fonte-primaria;
+
+}
+
 a{
     text-decoration: none;
 }
-
-/*Variáveis*/
-
-$Cor-primaria: #d29d2b;
-$Cor-secundária: beige;
-$Cor-escura: #000000;
-$Cor-Clara: #ffffff;
