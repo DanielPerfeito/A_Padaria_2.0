@@ -32,18 +32,36 @@ a {
   height: 100%;
   background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0.2196078431));
 }
+#capa #filtro1 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+  gap: 0;
+}
+@media screen and (min-width: 768px) {
+  #capa #filtro1 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
 #capa #filtro1 header #menu {
-  width: 100%;
+  min-width: 650px;
   display: none;
   z-index: 1;
+  border-bottom: solid 2px #d29d2b;
+  border-radius: 5px;
 }
 @media screen and (min-width: 768px) {
   #capa #filtro1 header #menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 70px;
+    gap: 10px;
   }
 }
 #capa #filtro1 header #menu a {
@@ -115,6 +133,9 @@ a {
 /*MIXINS*/
 /*Galeria*/
 #galeria {
+  background-image: url(../ativos/back-doo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,12 +149,22 @@ a {
   color: #d29d2b;
   font-size: 1.3rem;
 }
+@media screen and (min-width: 768px) {
+  #galeria h1 {
+    font-size: 2rem;
+  }
+}
 #galeria #container-carrossel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  #galeria #container-carrossel {
+    width: 750px;
+  }
 }
 #galeria #container-carrossel #carouselExampleIndicators {
   border-bottom: solid 3px #d29d2b;

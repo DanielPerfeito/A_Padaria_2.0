@@ -5,6 +5,11 @@
 
 #galeria{
 
+    background-image: url(../ativos/back-doo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
     @include display(flex, column, center, center, 20px);
     background-color: $Cor-escura;
     padding: 15px;
@@ -12,12 +17,20 @@
     h1{
         text-align: center;
         color: $Cor-primaria;
-        font-size: 1.3rem
+        font-size: 1.3rem;
+
+        @media screen and (min-width: 768px){
+            font-size: 2rem;
+        }
     }
+
 
     #container-carrossel{
         @include display(flex, column, center, center, 20px);
         
+        @media screen and (min-width: 768px){
+            width: 750px;
+        }
 
         #carouselExampleIndicators{
             border-bottom: solid 3px $Cor-primaria;
