@@ -1,0 +1,71 @@
+/*SOBRE*/
+
+/*Imports necessários*/
+@import "./mixins.scss";
+
+/*Sobre*/
+#sobre{
+
+    @include display(flex, column, center, center, 20px);
+    background-image: url(../ativos/back-sobre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    #filtro2{
+        padding: 15px 30px 50px;
+        height: 100%;
+        background-image: linear-gradient(to top, #0000006b, #000000);
+        @include display(flex, column, center, center, 0); 
+
+        @media screen and (min-width: 768px){
+            @include display(flex, row, center, center, 5px);
+        
+            padding: 100px 100px 50px 100px;}
+            
+        #logo2{
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        #texto-sobre{
+            color: $Cor-Clara;
+            text-shadow: 2px 2px 2px $Cor-escura;
+            text-align: center;
+
+            @media screen and (min-width: 768px){
+                @include display(flex, column, center, start, 5px);
+
+                text-align: left;
+
+                border-left: solid 5px $Cor-primaria;
+
+                padding: 25px 30px;
+            }
+
+            h2{
+                color: $Cor-primaria;
+            }
+
+            #btn-insta{
+                background-color: $Cor-Clara;
+                border: solid 2px $Cor-Clara;
+                color: $Cor-escura;
+                margin-top: 15px;
+                text-shadow: none;
+                box-shadow: 2px 2px 2px $Cor-escura;
+        
+                &:hover{
+                    background-color:$Cor-primaria;
+                    color: $Cor-escura;
+                    border: solid 2px $Cor-primaria;
+                }
+            }
+        }
+
+
+    }
+
+}
+

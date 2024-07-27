@@ -2,13 +2,7 @@
 @import "./mixins.scss";
 
 /*Galeria*/
-
 #galeria{
-
-    background-image: url(../ativos/back-doo1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
 
     @include display(flex, column, center, center, 20px);
     background-color: $Cor-escura;
@@ -24,7 +18,6 @@
         }
     }
 
-
     #container-carrossel{
         @include display(flex, column, center, center, 20px);
         
@@ -36,9 +29,7 @@
             border-bottom: solid 3px $Cor-primaria;
             border-radius: 5px 5px 0 0;
             overflow: hidden;
-
         }
-
     }
 
     #btn-lojas{

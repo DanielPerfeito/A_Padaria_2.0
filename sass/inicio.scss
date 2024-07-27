@@ -10,11 +10,11 @@
     background-image: url(../ativos/backgroud-capa04.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
     #filtro1{
         height: 100%;
         background-image: linear-gradient(to top, #000000, #00000038);
-
-
 
     header{
         @include display(flex, row, end, start, 0);
