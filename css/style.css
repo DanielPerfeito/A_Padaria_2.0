@@ -256,17 +256,40 @@ a {
 /*MIXINS*/
 /*LOJAS*/
 /*Imports necessários*/
+/*Variáveis*/
+/*Comuns*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lobster", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 /*MIXINS*/
 /*Lojas*/
 #lojas {
-  padding: 30px;
-  background-color: beige;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
   border-top: solid 8px #d29d2b;
+  background-image: url(../ativos/back-lojas-doo.png);
+  background-size: cover;
+  background-position: center;
+}
+#lojas h2 {
+  text-align: center;
+  text-shadow: 5px 5px #e9d373;
 }
 #lojas #container-lojas {
   display: flex;
@@ -275,48 +298,61 @@ a {
   align-items: center;
   gap: 25px;
 }
-#lojas #container-lojas .card {
-  overflow: hidden;
-  padding: 15px;
-  text-align: center;
+@media screen and (min-width: 768px) {
+  #lojas #container-lojas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+}
+#lojas #container-lojas h3 {
+  margin: 10px 0 0;
+}
+#lojas #container-lojas .cards {
+  width: 300px;
   background-color: #000000;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5px;
-}
-#lojas #container-lojas .card img {
-  width: 100%;
-  border-bottom: solid #d29d2b 3px;
-  border-radius: 10px 10px 0 0;
-}
-#lojas #container-lojas .card h3 {
+  border: double 8px #d29d2b;
+  border-radius: 25px;
+  padding: 15px;
   color: #d29d2b;
-}
-#lojas #container-lojas .card .endereco-loja {
-  width: 100%;
-  background-color: #d29d2b;
-  color: #000000;
-  padding: 0 5px;
-  border-radius: 10px 10px 0 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 0px;
+  box-shadow: 3px 3px #e9d373;
 }
-#lojas #container-lojas .card .endereco-loja .map-box {
+#lojas #container-lojas .cards img {
   width: 100%;
-  height: 50%;
+  height: 170px;
+  border-radius: 15px 15px 30px 30px;
+  border-bottom: solid 3px #d29d2b;
+}
+#lojas #container-lojas .cards h3 {
+  margin: 10px 0 0;
+}
+#lojas #container-lojas .cards h3 span {
+  color: red;
+}
+#lojas #container-lojas .cards .endereco-loja p {
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+}
+#lojas #container-lojas .cards .endereco-loja .map-box {
+  width: 100%;
+  height: 100px;
   margin: 0;
   overflow: hidden;
 }
-#lojas #container-lojas .card .endereco-loja .map-box iframe {
+#lojas #container-lojas .cards .endereco-loja .map-box iframe {
+  height: 100%;
   width: 100%;
-  border-radius: 10px 10px 0 0;
   overflow: hidden;
+  border: solid 2px #e9d373;
+  border-radius: 30px 30px 15px 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

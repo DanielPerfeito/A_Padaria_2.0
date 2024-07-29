@@ -4,6 +4,7 @@
 @import "./mixins.scss";
 
 /*Sobre*/
+
 #sobre{
 
     @include display(flex, column, center, center, 20px);
