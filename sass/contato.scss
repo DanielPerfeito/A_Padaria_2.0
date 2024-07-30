@@ -1,0 +1,59 @@
+/*RODAPÉ/CONTATO*/
+
+/*Imports necessários*/
+@import "comuns.scss";
+
+/*Contato*/
+#contato{
+    background-color: $Cor-escura;
+    @include display(flex, column, center, center, 20px);
+    padding: 30px 10px;
+    
+
+    #container-contato{
+        width: 100%;
+        @include display(flex, column, space-around, center, 20px);
+
+        @media screen and (min-width: 768px) {
+            @include display(flex, row, center, center, 50px);
+        }
+
+        img{
+            width: 300px;
+        }
+
+        a{
+            font-size: 1.5rem;
+            color: $Cor-Clara;
+            transition: .3s;
+
+            &:hover{
+                color: $Cor-primaria;
+            }
+        }
+        
+    }
+
+    #copyright{
+        @include display(flex, column, center, center, 5px);
+
+        p{
+            margin: 0;
+            
+            text-align: center;
+            
+            span{
+                
+                a{
+                    color: $Cor-secundaria;
+                }
+            }
+        }
+
+        @media screen and (min-width: 768px){
+
+            @include display(flex, row, center, center, 50px);
+
+        }
+    }
+}

@@ -20,14 +20,14 @@
         background-image: linear-gradient(to top, #0000006b, #000000);
         @include display(flex, column, center, center, 0); 
 
-        @media screen and (min-width: 768px){
+        @media screen and (min-width: 1220px){
             @include display(flex, row, center, center, 5px);
         
             padding: 100px 100px 50px 100px;}
             
         #logo2{
             margin: 20px 0;
-            width: 100%;
+            width: 320px;
         }
 
         #texto-sobre{
@@ -35,7 +35,7 @@
             text-shadow: 2px 2px 2px $Cor-escura;
             text-align: center;
 
-            @media screen and (min-width: 768px){
+            @media screen and (min-width: 1220px){
                 @include display(flex, column, center, start, 5px);
 
                 text-align: left;
