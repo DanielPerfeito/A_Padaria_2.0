@@ -17,7 +17,7 @@
             font-size: 2rem;
         }
     }
-
+    /*Carrossel*/
     #container-carrossel{
         @include display(flex, column, center, center, 20px);
         
@@ -31,7 +31,7 @@
             overflow: hidden;
         }
     }
-
+    /*Botão de link para lojas*/
     #btn-lojas{
         background-color: none;
         border: solid 2px $Cor-primaria;

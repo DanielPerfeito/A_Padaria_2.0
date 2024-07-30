@@ -4,7 +4,6 @@
 @import "./mixins.scss";
 
 /*Sobre*/
-
 #sobre{
 
     @include display(flex, column, center, center, 20px);
@@ -14,6 +13,7 @@
     background-position: center;
     background-attachment: fixed;
 
+    /*Filtro*/
     #filtro2{
         padding: 15px 30px 50px;
         height: 100%;
@@ -64,9 +64,6 @@
                 }
             }
         }
-
-
     }
-
 }
 

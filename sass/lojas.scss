@@ -5,34 +5,33 @@
 @import "./mixins.scss";
 
 /*Lojas*/
-#lojas{
+#lojas {
     padding: 50px;
     @include display(flex, column, center, center, 25px);
     border-top: solid 8px $Cor-primaria;
     background-image: url(../ativos/back-lojas-doo.png);
     background-size: cover;
     background-position: center;
-    
 
-    h2{
+
+    h2 {
         text-align: center;
         text-shadow: 5px 5px $Cor-secundaria
     }
-    
-    #container-lojas{
 
+    #container-lojas {
         @include display(flex, column, center, center, 25px);
-
-        @media screen and (min-width: 768px){
-            @include display(flex, row, center, center, 25px);
         
+        @media screen and (min-width: 768px) {
+            @include display(flex, row, center, center, 25px);
         }
 
-        h3{ 
+        h3 {
             margin: 10px 0 0;
         }
         
-        .cards{
+        /*cards*/
+        .cards {
             width: 300px;
             background-color: $Cor-escura;
             border: double 8px $Cor-primaria;
@@ -41,53 +40,46 @@
             color: $Cor-primaria;
             @include display(flex, column, center, center, 0px);
             box-shadow: 3px 3px $Cor-secundaria;
-            
 
-            img{
+
+            img {
                 width: 100%;
                 height: 170px;
                 border-radius: 15px 15px 30px 30px;
                 border-bottom: solid 3px $Cor-primaria;
-                
-               
             }
 
-            h3{
-                
+            h3 {
                 margin: 10px 0 0;
-
-                span{
-
+                span {
                     color: red;
                 }
             }
 
-            .endereco-loja{
+            .endereco-loja {
 
-                p{
+                p {
                     margin: 0;
                     text-align: center;
                     padding: 5px;
                 }
-              
 
-                .map-box{
+                .map-box {
                     width: 100%;
                     height: 100px;
                     margin: 0;
                     overflow: hidden;
-                    
-                    iframe{
+
+                    iframe {
                         height: 100%;
                         width: 100%;
                         overflow: hidden;
                         border: solid 2px $Cor-secundaria;
                         border-radius: 30px 30px 15px 15px;
                     }
-                }  
+                }
             }
-            
+
         }
     }
-
 }

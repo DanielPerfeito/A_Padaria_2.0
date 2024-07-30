@@ -5,12 +5,10 @@ $Cor-primaria: #d29d2b;
 $Cor-secundaria: #e9d373;
 $Cor-escura: #000000;
 $Cor-Clara: #ffffff;
-
 $Fonte-primaria: 'Lobster', sans-serif;
 
 
 /*Comuns*/
-
 *{
     margin:0;
     padding: 0;
@@ -20,9 +18,7 @@ $Fonte-primaria: 'Lobster', sans-serif;
 
 body{
     font-family: $Fonte-primaria;
-
 }
-
 
 a{
     text-decoration: none;

@@ -140,6 +140,8 @@ a {
   gap: 20px;
   background-color: #000000;
   padding: 15px;
+  /*Carrossel*/
+  /*Botão de link para lojas*/
 }
 #galeria h1 {
   text-align: center;
@@ -194,6 +196,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  /*Filtro*/
 }
 #sobre #filtro2 {
   padding: 15px 30px 50px;
@@ -297,6 +300,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  /*cards*/
 }
 @media screen and (min-width: 768px) {
   #lojas #container-lojas {
