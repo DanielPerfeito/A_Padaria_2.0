@@ -9,7 +9,6 @@
     @include display(flex, column, center, center, 20px);
     padding: 30px 10px;
     
-
     #container-contato{
         width: 100%;
         @include display(flex, column, space-around, center, 20px);
@@ -31,15 +30,14 @@
                 color: $Cor-primaria;
             }
         }
-        
     }
 
+    /*Copyright*/
     #copyright{
         @include display(flex, column, center, center, 5px);
 
         p{
             margin: 0;
-            
             text-align: center;
             
             span{
@@ -51,9 +49,7 @@
         }
 
         @media screen and (min-width: 768px){
-
             @include display(flex, row, center, center, 50px);
-
         }
     }
 }

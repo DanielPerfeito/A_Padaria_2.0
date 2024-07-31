@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*STYLE PRINCIPAL*/
 /*Imports*/
+/*COMUNS*/
 /*Variáveis*/
 /*Comuns*/
 * {
@@ -259,6 +260,7 @@ a {
 /*MIXINS*/
 /*LOJAS*/
 /*Imports necessários*/
+/*COMUNS*/
 /*Variáveis*/
 /*Comuns*/
 * {
@@ -361,6 +363,7 @@ a {
 
 /*RODAPÉ/CONTATO*/
 /*Imports necessários*/
+/*COMUNS*/
 /*Variáveis*/
 /*Comuns*/
 * {
@@ -387,6 +390,7 @@ a {
   align-items: center;
   gap: 20px;
   padding: 30px 10px;
+  /*Copyright*/
 }
 #contato #container-contato {
   width: 100%;

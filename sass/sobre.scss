@@ -22,7 +22,6 @@
 
         @media screen and (min-width: 1220px){
             @include display(flex, row, center, center, 5px);
-        
             padding: 100px 100px 50px 100px;}
             
         #logo2{
@@ -37,11 +36,8 @@
 
             @media screen and (min-width: 1220px){
                 @include display(flex, column, center, start, 5px);
-
                 text-align: left;
-
                 border-left: solid 5px $Cor-primaria;
-
                 padding: 25px 30px;
             }
 
@@ -66,4 +62,3 @@
         }
     }
 }
-
