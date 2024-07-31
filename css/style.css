@@ -147,7 +147,7 @@ a {
 #galeria h1 {
   text-align: center;
   color: #d29d2b;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
 }
 @media screen and (min-width: 768px) {
   #galeria h1 {
@@ -167,8 +167,8 @@ a {
   }
 }
 #galeria #container-carrossel #carouselExampleIndicators {
-  border-bottom: solid 3px #d29d2b;
-  border-radius: 5px 5px 0 0;
+  border-bottom: solid 7px #d29d2b;
+  border-radius: 15px 15px 0 0;
   overflow: hidden;
 }
 #galeria #btn-lojas {
@@ -176,6 +176,7 @@ a {
   border: solid 2px #d29d2b;
   color: #d29d2b;
   margin-top: 15px;
+  font-size: 1.3rem;
 }
 #galeria #btn-lojas:hover {
   background-color: #d29d2b;
@@ -200,8 +201,9 @@ a {
   /*Filtro*/
 }
 #sobre #filtro2 {
-  padding: 15px 30px 50px;
+  padding: 15px 15px 50px;
   height: 100%;
+  width: 100%;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4196078431), #000000);
   display: flex;
   flex-direction: column;
@@ -227,6 +229,7 @@ a {
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
   text-align: center;
+  font-size: 1.2rem;
 }
 @media screen and (min-width: 1220px) {
   #sobre #filtro2 #texto-sobre {
@@ -242,6 +245,7 @@ a {
 }
 #sobre #filtro2 #texto-sobre h2 {
   color: #d29d2b;
+  font-size: 2.5rem;
 }
 #sobre #filtro2 #texto-sobre #btn-insta {
   background-color: #ffffff;
@@ -250,6 +254,7 @@ a {
   margin-top: 15px;
   text-shadow: none;
   box-shadow: 2px 2px 2px #000000;
+  font-size: 1.2rem;
 }
 #sobre #filtro2 #texto-sobre #btn-insta:hover {
   background-color: #d29d2b;
@@ -294,6 +299,7 @@ a {
 #lojas h2 {
   text-align: center;
   text-shadow: 5px 5px #e9d373;
+  font-size: 2.5rem;
 }
 #lojas #container-lojas {
   display: flex;
@@ -328,7 +334,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 0px;
-  box-shadow: 3px 3px #e9d373;
+  box-shadow: 3px 3px 2px #e9d373;
 }
 #lojas #container-lojas .cards img {
   width: 100%;
@@ -357,7 +363,7 @@ a {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  border: solid 2px #e9d373;
+  border: solid 4px #d29d2b;
   border-radius: 30px 30px 15px 15px;
 }
 

@@ -11,13 +11,13 @@
     h1{
         text-align: center;
         color: $Cor-primaria;
-        font-size: 1.3rem;
+        font-size: 2.5rem;
 
         @media screen and (min-width: 768px){
             font-size: 2rem;
         }
     }
-    
+
     /*Carrossel*/
     #container-carrossel{
         @include display(flex, column, center, center, 20px);
@@ -27,8 +27,8 @@
         }
 
         #carouselExampleIndicators{
-            border-bottom: solid 3px $Cor-primaria;
-            border-radius: 5px 5px 0 0;
+            border-bottom: solid 7px $Cor-primaria;
+            border-radius: 15px 15px 0 0;
             overflow: hidden;
         }
     }
@@ -39,6 +39,7 @@
         border: solid 2px $Cor-primaria;
         color: $Cor-primaria;
         margin-top: 15px;
+        font-size: 1.3rem;
 
         &:hover{
             background-color: $Cor-primaria;

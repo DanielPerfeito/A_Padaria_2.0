@@ -15,8 +15,9 @@
 
     /*Filtro*/
     #filtro2{
-        padding: 15px 30px 50px;
+        padding: 15px 15px 50px;
         height: 100%;
+        width: 100%;
         background-image: linear-gradient(to top, #0000006b, #000000);
         @include display(flex, column, center, center, 0); 
 
@@ -33,6 +34,7 @@
             color: $Cor-Clara;
             text-shadow: 2px 2px 2px $Cor-escura;
             text-align: center;
+            font-size: 1.2rem;
 
             @media screen and (min-width: 1220px){
                 @include display(flex, column, center, start, 5px);
@@ -43,6 +45,7 @@
 
             h2{
                 color: $Cor-primaria;
+                font-size: 2.5rem;
             }
 
             #btn-insta{
@@ -52,6 +55,7 @@
                 margin-top: 15px;
                 text-shadow: none;
                 box-shadow: 2px 2px 2px $Cor-escura;
+                font-size: 1.2rem;
         
                 &:hover{
                     background-color:$Cor-primaria;

@@ -14,7 +14,8 @@
 
     h2 {
         text-align: center;
-        text-shadow: 5px 5px $Cor-secundaria
+        text-shadow: 5px 5px $Cor-secundaria;
+        font-size: 2.5rem;
     }
 
     #container-lojas {
@@ -38,7 +39,7 @@
             padding: 15px;
             color: $Cor-primaria;
             @include display(flex, column, center, center, 0px);
-            box-shadow: 3px 3px $Cor-secundaria;
+            box-shadow: 3px 3px 2px $Cor-secundaria;
 
             img {
                 width: 100%;
@@ -72,7 +73,7 @@
                         height: 100%;
                         width: 100%;
                         overflow: hidden;
-                        border: solid 2px $Cor-secundaria;
+                        border: solid 4px $Cor-primaria;
                         border-radius: 30px 30px 15px 15px;
                     }
                 }
