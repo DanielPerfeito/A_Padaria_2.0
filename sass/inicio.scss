@@ -81,6 +81,11 @@
     @include display(flex, column, start, end, 0);
     transition: .3s;
 
+    img{
+        width: 100%;
+        margin: auto;
+    }
+
     #btn-fechar-menu{
         color: $Cor-Clara;
         font-size: 1.6rem;

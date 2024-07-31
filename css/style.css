@@ -111,6 +111,10 @@ a {
   gap: 0;
   transition: 0.3s;
 }
+#barra-lateral img {
+  width: 100%;
+  margin: auto;
+}
 #barra-lateral #btn-fechar-menu {
   color: #ffffff;
   font-size: 1.6rem;
