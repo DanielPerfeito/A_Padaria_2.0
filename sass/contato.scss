@@ -14,7 +14,9 @@
         @include display(flex, column, space-around, center, 20px);
 
         @media screen and (min-width: 768px) {
-            @include display(flex, row, center, center, 50px);
+            @include display(flex, row, space-around, center, 15px);
+
+            max-width: 1000px;
         }
 
         img{

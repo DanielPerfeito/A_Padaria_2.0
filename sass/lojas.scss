@@ -40,6 +40,11 @@
             color: $Cor-primaria;
             @include display(flex, column, center, center, 0px);
             box-shadow: 3px 3px 2px $Cor-secundaria;
+            transition: .5s;
+
+            &:hover{
+                transform: scale(1.02);
+            }
 
             img {
                 width: 100%;
