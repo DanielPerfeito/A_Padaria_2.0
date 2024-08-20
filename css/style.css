@@ -124,6 +124,7 @@ a {
 }
 #barra-lateral a {
   width: 100%;
+  font-size: 1.3rem;
   text-align: right;
   padding: 15px;
   color: #ffffff;
