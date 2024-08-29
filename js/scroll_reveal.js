@@ -6,9 +6,3 @@ scroll.reveal('.para-revelar-top', {
     distance: '50px',
     origin: 'bottom'
 })
-
-scroll.reveal('.para-revelar-left', { 
-    duration: 2000,
-    distance: '50px',
-    origin: 'left'
-})
