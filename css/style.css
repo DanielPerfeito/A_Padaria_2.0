@@ -290,7 +290,7 @@ a {
 
 /*Lojas*/
 #lojas {
-  padding: 50px;
+  padding: 100px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -458,6 +458,10 @@ a {
     align-items: center;
     gap: 50px;
   }
+}
+
+.para-revelar-left, .para-revelar-top {
+  visibility: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

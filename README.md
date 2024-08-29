@@ -17,7 +17,7 @@ O projeto "A Padaria" foi inicialmente criado como uma página web para praticar
 **[MIT](https://github.com/DanielPerfeito/A_Padaria_2.0/blob/7781598be07a636bfa699fb42b3502d749631849/LICENSE)** 📄✔️
 
 ## Status
-**Em andamento...** ☑️
+**Concluído** ✅
 ## Links
 
 **Link do deploy:** https://danielperfeito.github.io/A_Padaria_2.0/ 🍞

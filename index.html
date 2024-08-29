@@ -18,6 +18,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!--Scripts-->
     <script src="js/barra_lateral.js" defer></script>
+    <script src="js/scroll_reveal.js" defer></script>
+    <!--Scripts de bibliotecas-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
 </head>
 
@@ -44,7 +47,7 @@
 
             <!--Logo e Slogan-->
             <div id="slogan" class="h-100 d-flex flex-column justify-content-center align-items-center">
-                <img id="logo1" src="ativos/logo-fd-preto.png" alt="Logo de A Padaria" />
+                <img id="logo1" class="para-revelar-top" src="ativos/logo-fd-preto.png" alt="Logo de A Padaria" />
             </div>
         </div>
     </div>
@@ -70,7 +73,7 @@
         <section id="galeria" class="container-fluid">
             <h1>Quer conhecer nossas delicias?</h1>
             <!--Carrossel da galeria-->
-            <div id="container-carrossel" class="container">
+            <div id="container-carrossel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  >
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -120,30 +123,30 @@
             </div>
 
             <!--Botão Lojas-->
-           <a href="#lojas" id="btn-lojas" class="btn"><i class="bi bi-shop"> </i>Visite uma de Nossas Lojas</i></a>
+           <a href="#lojas" id="btn-lojas" class="btn para-revelar-left"><i class="bi bi-shop"> </i>Visite uma de Nossas Lojas</i></a>
         </section>
 
         <!--Area Sobre-->
-        <section id="sobre" class="">
+        <section id="sobre">
           <div id="filtro2">
             <!--Sublogo-->
-            <img id="logo2" src="./ativos/sublogo.png" alt="Logo  de A Padaria">
+            <img id="logo2" class="para-revelar-top" src="./ativos/sublogo.png" alt="Logo  de A Padaria">
             <!--Texto Sobre-->
-            <div id="texto-sobre">
+            <div id="texto-sobre" class="para-revelar-top">
               <h2>Quem Somos</h2>
               <p>Tudo começou com um pequeno empreendimento familiar. Crescemos em um ambiente simples e todo nosso alimento vinha da nossa própria colheita, até mesmo o pão que comíamos diariamente era feito por nossos avós passando de geração em geração a arte da panificação. E para ajudar nas nossas despesas vendíamos alguns desses pães oferecendo de casa em casa, sempre recebendo muitos elogios até que decidimos ter a nossa própria padaria. Com um modesto investimento abrimos as portas da nossa primeira A Padaria e a qualidade dos nossos produtos ganhou fama por vários lugares, assim vimos que poderíamos estar em mais de um lugar levando a mais pessoas o gosto das nossas criações únicas. Hoje temos mais duas lojas além da original, nossa qualidade abriu essas portas e convidamos você a nos conhecer.
               </p>
 
               <!--Botão Instagran-->
-              <a href="https://www.instagram.com/" id="btn-insta" class="btn" target="_blank"><i class="bi bi-instagram"></i> Siga a gente no Instagram</i></a>
+              <a href="https://www.instagram.com/" id="btn-insta" class="btn para-revelar-left" target="_blank"><i class="bi bi-instagram"></i> Siga a gente no Instagram</i></a>
             </div>
           </div>
         </section>
 
           <!--Area Lojas-->
         <section id="lojas">
-          <h2>Nossas Lojas</h2>
-            <div id="container-lojas">
+          <h2 class="para-revelar-top">Nossas Lojas</h2>
+            <div id="container-lojas" class="para-revelar-top" >
               
               <!--Cards Lojas-->
 
@@ -183,7 +186,7 @@
             </div>
 
             <!--Convite-->
-            <h2>Estamos prontos para receber você, não deixe de nos fazer uma visita! <span><i style="color: #d30b0b" class="bi bi-heart-fill"></i></span></h2>
+            <h2 class="para-revelar-top">Estamos prontos para receber você, não deixe de nos fazer uma visita! <span><i style="color: #d30b0b" class="bi bi-heart-fill"></i></span></h2>
         </section>
     </main>
     <!--Rodapé/Contatos-->
